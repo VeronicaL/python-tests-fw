@@ -1,8 +1,7 @@
 # docker image rm pytest_check
 # docker image ls
-
 # docker build -t pytest_check .
-# docker run --rm --mount type=bind,src="$(pwd)",target=/tests/ pytest_check python -m pytest -s --alluredir=test_results/ pythonFW/tests/
+# docker run --rm --mount type=bind,src="$(pwd)",target=/tests/ pytest_check
 
 FROM python
 
@@ -14,4 +13,4 @@ RUN pip install -r requirements.txt
 
 ENV ENVIRONMENT=dev
 
-CMD python -m pytest -s --alluredir=test_results/ framework_example/tests/
+CMD python -m pytest -s --alluredir=test_results/ tests/
