@@ -12,7 +12,7 @@ written in
 ```pip3 install -r requirements.txt```
 
 ## Running the tests
-Simple web-service (Spring-Boot) is UP on the local machine with supported endpoints:
+Simple [web-service](https://github.com/VeronicaL/java-web-service) (Spring-Boot) is UP on the local machine with supported endpoints:
 * http://localhost:8080/library_dev/users - GET
 * http://localhost:8080/library_dev/user - POST
 
