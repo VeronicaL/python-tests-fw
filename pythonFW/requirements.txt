@@ -1,0 +1,6 @@
+allure-pytest
+jsonref
+jsonschema
+requests
+pytest
+pytest-xdist
