@@ -43,3 +43,7 @@ into logger.log
 
 Note: with current web-server realisation (as it is only on localhost),
 it won't be visible from container. We need to deploy it.
+
+## ToDo
+* Reading data from file and pass to test
+* UI part of FW
