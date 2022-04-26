@@ -1,6 +1,6 @@
 from requests import Response
 from datetime import datetime
-from core.logger import Logger
+from utils.logger import Logger
 
 
 class BaseTest:

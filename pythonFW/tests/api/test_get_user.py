@@ -1,7 +1,7 @@
 import allure
-from core.my_request import Request
-from core.base_test import BaseTest
-from core.asserts import Asserts
+from core.request.my_request import Request
+from tests.base.base_test import BaseTest
+from utils.asserts import Asserts
 
 
 @allure.epic("Check users info")

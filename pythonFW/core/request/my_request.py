@@ -1,6 +1,6 @@
 import requests
 from environment import ENV
-from core.logger import Logger
+from utils.logger import Logger
 
 
 class Request:

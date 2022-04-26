@@ -2,9 +2,9 @@ import json
 
 import allure
 import pytest
-from core.base_test import BaseTest
-from core.my_request import Request
-from core.asserts import Asserts
+from tests.base.base_test import BaseTest
+from core.request.my_request import Request
+from utils.asserts import Asserts
 from model.user import User
 
 
